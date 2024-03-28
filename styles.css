@@ -1,0 +1,184 @@
+#home {
+    padding-top: 50px; /* Ajustar según sea necesario */
+    padding-bottom: 50px; /* Ajustar según sea necesario */
+    
+}
+
+#home .row {
+    min-height: 100vh; /* Esto asegura que la fila tenga la altura de la ventana del navegador */
+}
+
+#home h1 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 39px;
+    color: rgb(55, 53, 47);
+}
+
+#home p {
+    font-size: 1.3rem; /* Ajustar el tamaño del párrafo */
+}
+#home p {
+    font-size: 1.3rem;
+
+; /* Ajustar el tamaño del párrafo */
+}
+.designation{
+    font-family: 'Segoe UI', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgb(55, 53, 47);
+  
+}
+
+.down{
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(55, 53, 47);
+}
+#home .btn {
+    padding: 10px 20px; /* Ajustar el padding del botón */
+    font-size: 1.2rem; /* Ajustar el tamaño de fuente del botón */
+}
+
+
+/* Si necesitas estilos solo para móviles, puedess usar media queries */
+@media (max-width: 767.98px) {
+    #home .text-center {
+        text-align: left; /* Alinea el texto a la izquierda en dispositivos móviles */
+    }
+    #home .mb-4 {
+        margin-bottom: 2rem; /* Más espacio debajo del texto en dispositivos móviles */
+    }
+}
+
+
+
+
+
+
+#services{
+    padding: 2rem; /* Esto establece un relleno interno para cada caja de servicios */
+    margin: 1rem 0; /* Esto establece un margen superior e inferior entre las cajas
+}
+
+#services .row, #services .col-md-4 {
+border: 1px solid red; /* Un borde rojo hace que sea más visible */}
+
+
+  #services .col-md-4 {
+    padding: 30px; /* Añade más espacio interior */
+    margin: 15px 0; /* Añade espacio superior e inferior */
+    /* Mantén tus bordes rojos si aún estás en fase de diseño  border: 1px solid red;*/
+  }
+
+  #services .container {
+    padding: 2rem 1rem; /* Esto añade relleno interno al contenedor */
+  }
+  
+  #services h3 {
+    margin-bottom: 15px; /* Añade más espacio debajo de los títulos */
+    line-height: 1.4; /* Ajusta la altura de línea para los títulos si es necesario */
+  }
+  
+  #services p {
+    margin-bottom: 15px; /* Añade más espacio debajo de los párrafos */
+    line-height: 1.6; /* Ajusta la altura de línea para los párrafos */
+  }
+  #services ul {
+    list-style-type: none; /* Elimina las viñetas por defecto */
+    padding-left: 0; /* Elimina el relleno izquierdo, si es necesario */
+  }
+  
+  #services ul li::before {
+    content: '•'; /* Añade una viñeta personalizada */
+    color: blue; /* El color de la viñetas */
+    font-weight: bold; /* Hace que la viñeta sea negrita */
+    display: inline-block; /* Asegura que el contenido sea en línea con el texto */
+    width: 1em; /* Espacio antes de la viñeta */
+    margin-left: -1em; /* Ajusta la posición de la viñeta */
+  }
+
+
+  #about .text-center{
+
+    padding-right: 6rem;
+    padding-top: 7rem;
+    
+    
+  }
+
+  #about h2{
+    text-align: left;
+    
+  }
+
+  #about p{
+    text-align: left;
+  }
+
+  #about .col-6{
+    text-align: center;
+  }
+
+
+  .card {
+    
+    margin: auto; /* Esto asegura que las tarjetas se centren dentro de sus respectivas columnas */
+}
+
+#work h2{
+    text-align: center;
+}
+
+#work{
+    margin-top: 10rem;
+    
+}
+
+#contact {
+    text-align: center;
+    
+}
+
+.cont{
+    text-align: center;
+}
+
+#contact > .row {
+    margin-top: 50px; /* Añade más espacio encima de la sección 'contact' */
+    padding-bottom: 50px; /* Añade relleno debajo de la sección 'contact' */
+}
+
+#contact address {
+    padding: 20px; /* Añade relleno dentro del área de contacto */
+   
+}
+
+#cont address {
+    text-align: left;
+}
+
+#cont h2 {
+    margin-bottom: 0;
+  }
+  
+  .contact-info {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-info {
+      align-items: center;
+    }
+  }
+  
